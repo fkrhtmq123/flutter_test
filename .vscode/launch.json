@@ -1,0 +1,65 @@
+{
+    // IntelliSense を使用して利用可能な属性を学べます。
+    // 既存の属性の説明をホバーして表示します。
+    // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "flutter_application",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "flutter_application (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "flutter_application (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "flutter_application_macos",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "macos"
+        },
+        {
+            "name": "flutter_application_iphone14",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "2974FD11-E7FA-4A7B-9CE0-785F7CAD7CE4"
+        },
+        {
+            "name": "flutter_application_iphone15_plus",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "00008120-001225960A42201E"
+        },
+        {
+            "name": "flutter_application_android",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "emulator-5554"
+        },
+        {
+            "name": "flutter_application_chromes",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "chrome"
+        }
+    ],
+    "compounds": [
+        {
+            "name": "All Devices",
+            "configurations": [
+                "flutter_application_iphone14",
+                "flutter_application_android"
+            ],
+        }
+    ]
+}
